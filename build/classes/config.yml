@@ -1,0 +1,14 @@
+partyman:
+  max-name-length: '12'
+  max-abbr-length: '3'
+  max-members: '3'
+  partymessage:
+    prefix: '&6[PARTY] &c'
+    suffix: '&f'
+  partychat:
+    prefix: '&6[{0}] &f'
+    suffix: '&f'
+  parentgroup: Party
+  group:
+    prefix: '&f[&6P:&7'
+    suffix: '&f]&f'

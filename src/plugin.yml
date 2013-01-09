@@ -1,0 +1,22 @@
+name: PartyMan
+main: net.servertube.partyman.PartyMan
+version: 0.01a
+description: A bukkit Party Manager
+author: prodigy3k
+depend: [PermissionsEx]
+commands:
+  party:
+    description: Create and join parties with other players.
+    usage: /party create [PartyName] [PartyNameAbbreviation]
+           /party leave
+           /party list
+           /party invite [PlayerName]
+           /party accept
+           /party decline
+           /party disband
+           /party kick [PlayerName]
+           /party leader [PlayerName]
+           /party pvp
+  pc:
+    description: Chat in party.
+    usage: /pc <Message>
